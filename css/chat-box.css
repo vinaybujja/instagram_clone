@@ -1,0 +1,26 @@
+:root
+{
+    --logo-font-color : #dc0202de;
+    --logo-bg-color : #100000;
+    --logo-bg-color-rgba : #10000088;
+    --border-color : rgb(135, 135, 135);
+    --hover-color : rgb(255, 204, 0);
+    --color : #f0f0f0;
+    --mobile : 300px
+    --tablet : 500px
+    --laptop : 900px
+}
+.back-button
+{
+    font-size: larger;
+    border: none;
+    outline: none;
+}
+.place-holder-top.chat
+{
+    height: 60px;
+}
+.text-msg
+{
+    max-width: 80%;
+}
