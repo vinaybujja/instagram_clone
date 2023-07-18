@@ -1,0 +1,100 @@
+/* fixed similar to absolute */
+/* sticky similar to relative */
+:root
+{
+    --logo-font-color : #dc0202de;
+    --logo-bg-color : #100000;
+    --logo-bg-color-rgba : #10000088;
+    --border-color : rgb(135, 135, 135);
+    --hover-color : rgb(255, 204, 0);
+    --color : #f0f0f0;
+    --mobile : 300px
+    --tablet : 500px
+    --laptop : 900px
+}
+
+/* basic css starts here */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-color
+{
+    background-color: var(--logo-bg-color);
+    color: var(--logo-font-color);
+}
+.h100
+{
+    height: 100vh;
+}
+.h100-min
+{
+    min-height: 100vh;
+}
+.h-full
+{
+    height: 100%;
+}
+.w100
+{
+    width: 100%;
+}
+/* margin */
+.margin
+{
+    margin: 10px;
+}
+.m3
+{
+    margin: 3px;
+}
+.padding
+{
+    padding: 5px;
+}
+/* margin */
+/* flex css starts here */
+.flex
+{
+    display: flex;
+}
+.column
+{
+    flex-direction: column;
+}
+.row-rev
+{
+    flex-direction: row-reverse;
+}
+.flex-center
+{
+    justify-content: center;
+    align-items: center;
+}
+.flex-wrap
+{
+    flex-wrap: wrap;
+}
+.grow
+{
+    flex-grow: 1;
+}
+/* flex css ends here */
+/* border css starts here */
+.border
+{
+    border: 0.5px solid var(--border-color);
+}
+.border-radius
+{
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px rgb(76, 76, 76);
+}
+/* border css ends here */
+.text-center
+{
+    text-align: center;
+}
+/* basic css ends here */
