@@ -1,0 +1,103 @@
+:root
+{
+    --logo-font-color : #dc0202de;
+    --logo-bg-color : #100000;
+    --logo-bg-color-rgba : #10000088;
+    --border-color : rgb(135, 135, 135);
+    --hover-color : rgb(255, 204, 0);
+    --color : #f0f0f0;
+    --mobile : 300px
+    --tablet : 500px
+    --laptop : 900px
+}
+/* coloring a tags (links) starts here */
+a
+{
+    color: var(--logo-font-color);
+    text-decoration: none;
+}
+/* coloring a tags (links) ends here */
+
+/* top sticker start here */
+.top
+{
+    position: fixed;
+    top: 0;
+    border-bottom: 0.5px solid var(--border-color);
+}
+.top img,.feed-profile img
+{
+    height: 40px;
+}
+.top > *
+{
+    font-size: larger;
+    text-align: center;
+}
+/* profile pic starts here */
+.round-img
+{
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+}
+.round-img > img
+{
+    aspect-ratio: 1;
+}
+/* profile pic ends here */
+/* top sticker ends here */
+
+
+/* bottom sticker starts here */
+.bottom
+{
+    position: fixed;
+    bottom: 0;
+}
+.bottom > *
+{
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+    border: 0.5px solid var(--border-color);
+}
+.bottom a:hover,.top a:hover
+{
+    color: var(--hover-color);
+    
+}
+/* bottom sticker ends here */
+
+
+/* content */
+
+.place-holder-top
+{
+    height: 45px; /* height of top sticky bar */
+}
+
+.content-element img
+{
+    height: 50px;
+}
+.content-element .round-img
+{
+    border-radius: 25px;
+}
+.text
+{
+    color: var(--color);
+}
+.content-element
+{
+    position: relative;
+    left: 0;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px rgb(76, 76, 76);
+}
+.content-element .matter
+{
+    margin: 0 0 0 15px;
+}
