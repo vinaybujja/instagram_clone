@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - user-name - Social Media</title>
+    <!-- fevicon from fevicon.io -->
+    <link rel="apple-touch-icon" sizes="180x180" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\favicon\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\favicon\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\favicon\favicon-16x16.png">
+    <link rel="manifest" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\favicon\site.webmanifest">
+    <!-- fontawesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- external css -->
+    <link rel="stylesheet" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\css\base.css">
+    <link rel="stylesheet" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\css\feed.css">
+    <link rel="stylesheet" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\css\chat-box.css">
+</head>
+<body onload="preloader()">
+    <div class="bg-color h100-min">
+        <!-- preloader -->
+        <div class="preloader">
+            <img src="preloder\logo.svg" alt="" srcset="">
+        </div>
+        <!-- preloader ends here -->
+        <!-- top starts here -->
+        <div class="top flex w100">
+            <div class="back-button flex flex-center margin padding">
+                <div>
+                    <a class="back-button" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\html\chat.html" title="back-button">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="heading grow text-center"><h1>user-name</h1></div>
+        </div>
+        <!-- top ends here -->
+        <!-- content starts here -->
+        <div class="content">
+            <div class="place-holder-top chat"></div>
+            <div class="flex">
+                <div class="my-text margin padding border-radius text-msg">my text goes here</div>
+            </div>
+            <div class="flex row-rev">
+                <div class="frnd-text margin padding border-radius text-msg">frnd text goes here</div>
+            </div>
+
+            <!-- 2nd msg -->
+            <div class="flex">
+                <div class="my-text margin padding border-radius text-msg">my text goes here</div>
+            </div>
+            <div class="flex row-rev">
+                <div class="frnd-text margin padding border-radius text-msg">frnd text goes here</div>
+            </div>
+        </div>
+        <!-- content ends here -->
+        <!-- bottom starts here -->
+        <div class="chat-input bottom  w100">
+            <form action="" method="post">
+                <div class="flex w100">
+                    <div class="m3 grow">
+                        <label for="chat-typing"></label>
+                        <input type="text" class="padding w100 h-full border-radius" name="chat-typing" id="chat-typing" placeholder="Type here">
+                    </div>
+                    <div class="m3 padding"><button class="back-button bg-color" type="submit" title="send-msg"><i class="fa-solid fa-arrow-right"></i></button></div>
+                </div>
+            </form>
+        </div>
+        <!-- bottom ends here -->
+    </div>
+</body>
+</html>
