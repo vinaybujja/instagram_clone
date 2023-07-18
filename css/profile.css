@@ -1,0 +1,41 @@
+:root
+{
+    --logo-font-color : #dc0202de;
+    --logo-bg-color : #100000;
+    --logo-bg-color-rgba : #10000088;
+    --border-color : rgb(135, 135, 135);
+    --hover-color : rgb(255, 204, 0);
+    --color : #f0f0f0;
+    --mobile : 300px
+    --tablet : 500px
+    --laptop : 900px
+}
+/* side bar starts here */
+body
+{
+    overflow-x: hidden;
+}
+.side-bar
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 100%;
+    width: 80%;
+    background-color: var(--logo-bg-color);
+    transform: translateX(100%);
+}
+/* side bar ends here */
+/* profile details starts here */
+.profile-details
+{
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px rgb(76, 76, 76);
+}
+.profile-details *
+{
+    padding: 5px;
+}
+/* profile details ends here */
