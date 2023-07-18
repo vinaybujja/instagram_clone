@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed - Social Media</title>
+    <!-- fevicon from fevicon.io -->
+    <link rel="apple-touch-icon" sizes="180x180" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\favicon\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\favicon\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\favicon\favicon-16x16.png">
+    <link rel="manifest" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\favicon\site.webmanifest">
+    <!-- fontawesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- external css -->
+    <link rel="stylesheet" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\css\base.css">
+    <link rel="stylesheet" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\css\feed.css">
+    <link rel="stylesheet" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\css\feed-post.css">
+    <link rel="stylesheet" href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\css\chat-box.css">
+</head>
+<body onload="preloader()">
+    <div class="bg-color h100-min">
+    <!-- preloader -->
+    <div class="preloader">
+        <img src="preloder\logo.svg" alt="" srcset="">
+    </div>
+    <!-- preloader ends here -->
+    <!-- top starts here -->
+        <div class="top feed-top flex w100 bg-color">
+            <div class="logo grow flex flex-center"><img src="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\logo-symbol-social-media\logo-symbol.png" alt="logo" srcset=""></div>
+            <div class="grow flex flex-center"><h1>Feed</h1></div>
+            <div class="search-button-logo grow flex flex-center"><button class="back-button bg-color" type="button" title="search button"><i class="fa-solid fa-magnifying-glass"></i></button></div>
+        </div>
+    <!-- top ends here -->
+<!-- search element starts here -->
+<div class="search-page">
+    <div class="top flex w100">
+        <div class="back-button flex flex-center margin padding">
+            <div>
+                <button class="search-back-button back-button bg-color" type="button" title="search back button">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+            </div>
+        </div>
+        <form class="grow" action="" method="post">
+            <div class="flex w100">
+                <div class="m3 grow">
+                    <label for="chat-typing"></label>
+                    <input type="text" class="padding w100 h-full border-radius m3" name="chat-typing" id="chat-typing" placeholder="search here">
+                </div>
+                <div class="m3 padding"><button class="back-button bg-color" type="submit" title="send-msg"><i class="fa-solid fa-arrow-right"></i></button></div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- search element ends here -->
+    <!-- content starts here -->
+        <div class="content">
+            <!-- 1st post -->
+            <div class="place-holder-top"></div>
+            <div class="feed-element border-radius margin">
+                <div class="profile">
+                    <div class=""><a href="">
+                    <div class="feed-profile flex bg-color border-radius margin">
+                        <div class="profile_pic grow flex flex-center"><div class="round-img"><img src="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\AI_pic.jpg" alt="profile picture" srcset=""></div></div>
+                        <div class="grow flex flex-center"><h1>user_name</h1></div>
+                    </div>
+                    </a></div>
+                </div>
+                <div class="pic border-radius"><img src="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\AI_pic.jpg" alt="" srcset=""></div>
+                <div class="likes flex flex-center border-radius padding">
+                    <div class="grow text-center">
+                        <div class=""><button class="like-button back-button bg-color" type="button"><i class="fa-regular fa-heart"></i></button></div>
+                        <div class="count">0</div>
+                    </div>
+                    <div class="grow text-center">
+                        <div class=""><button class="comment-button back-button bg-color" type="button"><i class="fa-solid fa-pen-to-square"></i></button></div>
+                        <div class="count">0</div>
+                    </div>
+                    <!-- comment element starts here -->
+                    <div class="comment-page search-page">
+                        <div class="top flex w100">
+                            <div class="back-button flex flex-center margin padding">
+                                <div>
+                                    <button class="commnet-back-button search-back-button back-button bg-color" type="button" title="search back button">
+                                        <i class="fa-solid fa-arrow-left"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <form class="grow" action="" method="post">
+                                <div class="flex w100">
+                                    <div class="m3 grow">
+                                        <label for="chat-typing"></label>
+                                        <input type="text" class="padding w100 h-full border-radius m3" name="chat-typing" id="chat-typing" placeholder="search here">
+                                    </div>
+                                    <div class="m3 padding"><button class="back-button bg-color" type="submit" title="send-msg"><i class="fa-solid fa-arrow-right"></i></button></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- comment element ends here -->
+                </div>
+                <div class="discription border-radius">discription goes here</div>
+            </div>
+            <!-- 2nd post -->
+            <div class="feed-element border-radius margin">
+                <div class="profile">
+                    <div class=""><a href="">
+                    <div class="feed-profile flex bg-color border-radius margin">
+                        <div class="profile_pic grow flex flex-center"><div class="round-img"><img src="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\AI_pic.jpg" alt="profile picture" srcset=""></div></div>
+                        <div class="grow flex flex-center"><h1>user_name</h1></div>
+                    </div>
+                    </a></div>
+                </div>
+                <div class="pic border-radius"><img src="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\AI_pic.jpg" alt="" srcset=""></div>
+                <div class="likes flex flex-center border-radius padding">
+                    <div class="grow text-center">
+                        <div class=""><i class="fa-regular fa-heart"></i></div>
+                        <div class="count">0</div>
+                    </div>
+                    <div class="grow text-center">
+                        <div class=""><i class="fa-solid fa-pen-to-square"></i></div>
+                        <div class="count">0</div>
+                    </div>
+                </div>
+                <div class="discription border-radius">discription goes here</div>
+            </div>
+            <!-- 3rd post -->
+            <div class="feed-element border-radius margin">
+                <div class="profile">
+                    <div class=""><a href="">
+                    <div class="feed-profile flex bg-color border-radius margin">
+                        <div class="profile_pic grow flex flex-center"><div class="round-img"><img src="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\AI_pic.jpg" alt="profile picture" srcset=""></div></div>
+                        <div class="grow flex flex-center"><h1>user_name</h1></div>
+                    </div>
+                    </a></div>
+                </div>
+                <div class="pic border-radius"><img src="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\AI_pic.jpg" alt="" srcset=""></div>
+                <div class="likes flex flex-center border-radius padding">
+                    <div class="grow text-center">
+                        <div class=""><i class="fa-regular fa-heart"></i></div>
+                        <div class="count">0</div>
+                    </div>
+                    <div class="grow text-center">
+                        <div class=""><i class="fa-solid fa-pen-to-square"></i></div>
+                        <div class="count">0</div>
+                    </div>
+                </div>
+                <div class="discription border-radius">discription goes here</div>
+            </div>
+        </div>
+    <!-- content ends here -->
+
+    <!-- bottom starts here -->
+        <div class="bottom flex w100 bg-color">
+            <div class="grow"><a href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\html\feed.html" title="home"><div class=""><i class="fa-solid fa-house"></i></div></a></div>
+            <div class="grow"><a href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\html\chat.html" title="chat"><div class=""><i class="fa-solid fa-message"></i></div></a></div>
+            <div class="grow"><a href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\html\notification.html" title="notificcation"><div class=""><i class="fa-solid fa-bell"></i></div></a></div>
+            <div class="grow"><a href="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\html\profile.html" title="profile"><div class=""><i class="fa-solid fa-user"></i></div></a></div>
+        </div>
+    <!-- bottom ends here -->
+    </div>
+    <!-- js here -->
+    <script src="C:\Users\LENOVO\OneDrive\Desktop\food\images\wibsite\social-media\js\base.js"></script>
+</body>
+</html>
